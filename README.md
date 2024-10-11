@@ -4,7 +4,6 @@ This project is a news website built using React that fetches real-time news hea
 
 # Table of Contents
   - Features
-  - Demo
   - Installation
   - Usage
   - Environment Variables
@@ -16,9 +15,6 @@ This project is a news website built using React that fetches real-time news hea
   - Allows users to filter news by category (e.g., Technology, Sports, Business).
   - Responsive design that works across desktop and mobile devices.
   - Error handling for API calls (e.g., when the news source is down).
-
-# Demo
-  A live demo can be found at Your Website Demo Link.
 
 # Installation
   Prerequisites
