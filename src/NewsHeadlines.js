@@ -9,7 +9,7 @@ const NewsHeadlines = () => {
     const fetchNews = async () => {
       try {
         const response = await axios.get(
-          `https://newsapi.org/v2/top-headlines?country=us&pageSize=5&apiKey=3cebdbf28459452797b4d3bf23f17aed`
+          `https://newsapi.org/v2/top-headlines?country=us&pageSize=5&apiKey={YOUR_API_KEY}`
         );
         setHeadlines(response.data.articles);
       } catch (err) {
