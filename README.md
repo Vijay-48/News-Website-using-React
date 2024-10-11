@@ -3,13 +3,13 @@
 This project is a news website built using React that fetches real-time news headlines from an external API (e.g., News API). The website allows users to view the latest news articles from various categories and displays them in a clean, responsive layout.
 
 # Table of Contents
-  Features
-  Demo
-  Installation
-  Usage
-  Environment Variables
-  Technologies Used
-  Contributing
+  - Features
+  - Demo
+  - Installation
+  - Usage
+  - Environment Variables
+  - Technologies Used
+  - Contributing
 
 # Features
   - Displays real-time news headlines fetched from an external API.
@@ -26,33 +26,33 @@ This project is a news website built using React that fetches real-time news hea
 
     Node.js
     npm or yarn
-    Steps to Install
+  // Steps to Install
 
-  Clone the repository:
-  Copy code
-  git clone https://github.com/Vijay-48/News-Website-using-React.git
-  cd News-Website-using-React
+  1. Clone the repository:
+     Copy code
+      git clone https://github.com/Vijay-48/News-Website-using-React.git
+      cd News-Website-using-React
 
-Install the dependencies:
+2. Install the dependencies:
+    Copy code
+      npm install
 
-Copy code
-  npm install
+3. Set up the environment variables (see Environment Variables).
 
-Set up the environment variables (see Environment Variables).
+4. Start the development server:
+   Copy code
+      npm start
 
-// Start the development server:
-
-Copy code
-  - npm start
-
-  Open your browser and navigate to http://localhost:3000 to view the project.
+5. Open your browser and navigate to http://localhost:3000 to view the project.
 
 # Usage
 
-The website will display the latest news headlines when it loads.
-You can filter the news by clicking on different categories (e.g., Technology, Business, Sports).
-Each news article contains a link that redirects to the original source.
-Environment Variables
+- The website will display the latest news headlines when it loads.
+- You can filter the news by clicking on different categories (e.g., Technology, Business, Sports).
+- Each news article contains a link that redirects to the original source.
+
+# Environment Variables
+
 To run this project, you will need to add the following environment variable to your .env file in the root directory.
 
 Copy code
@@ -63,11 +63,11 @@ You can obtain your API key by signing up at News API.
 
 # Technologies Used
 
-  React: A JavaScript library for building user interfaces.
-  Axios: For making API requests.
-  News API: To fetch real-time news articles.
-  CSS: For responsive styling.
-  Node.js: For running the development environment.
+  - React: A JavaScript library for building user interfaces.
+  - Axios: For making API requests.
+  - News API: To fetch real-time news articles.
+  - CSS: For responsive styling.
+  - Node.js: For running the development environment.
 
 # Folder Structure
   Here is an overview of the project structure:
@@ -85,4 +85,5 @@ You can obtain your API key by signing up at News API.
   └── server.js            # Backend server file (if applicable)
 
 # Contributing
+  
   Contributions are welcome! Feel free to open an issue or submit a pull request for any bugs or improvements.
