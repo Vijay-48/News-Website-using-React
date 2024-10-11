@@ -12,7 +12,7 @@ app.get('/api/news', async (req, res) => {
 
   try {
     const response = await axios.get(
-      `https://newsapi.org/v2/top-headlines?country=us&pageSize=5&apiKey=3cebdbf28459452797b4d3bf23f17aed`
+      `https://newsapi.org/v2/top-headlines?country=us&pageSize=5&apiKey={YOUR_API_KEY}`
     );
     cachedNews = response.data;
     cacheTime = Date.now();
