@@ -71,17 +71,25 @@ You can obtain your API key by signing up at News API.
 
 # Folder Structure
   Here is an overview of the project structure:
-  Copy code
-  
+
   ├── public
+  
   │   └── index.html       # HTML file for app
+  
   ├── src
+  
   │   ├── components       # React components (NewsList, NewsCard, Header)
+  
   │   ├── services         # Axios requests for News API
+  
   │   └── App.js           # Main app file
+  
   ├── .gitignore           # Ignoring node_modules and other files
+  
   ├── package.json         # Project metadata and dependencies
+  
   ├── README.md            # Project documentation
+  
   └── server.js            # Backend server file (if applicable)
 
 # Contributing
